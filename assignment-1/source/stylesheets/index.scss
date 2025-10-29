@@ -1,0 +1,19 @@
+// Example variables
+$primary-color: #3498db;
+$text-color: #333;
+
+
+// Button example
+button {
+  background-color: lighten($primary-color, 5%);
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
