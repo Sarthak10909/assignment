@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title2</title>
+    <style>
+        #button{
+            background-color:aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div id = "button">This is the button</div>
+
+    <script>
+        const button = document.getElementById("button");
+
+        button.addEventListener("mouseover", () => {
+            button.style.backgroundColor = "green";
+        })
+
+        button.addEventListener("mouseout", ()=>{
+            button.style.backgroundColor = "aliceblue";
+        })
+    </script>
+</body>
+</html>
